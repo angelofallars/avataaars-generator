@@ -113,14 +113,75 @@ export default class AvatarForm extends React.Component<Props> {
             <label>
               <input
                 type='radio'
-                id='avatar-style-circle'
+                id='avatar-style-circle-red'
                 name='avatar-style'
-                value={AvatarStyle.Circle}
-                checked={avatarStyle === AvatarStyle.Circle}
+                value={AvatarStyle.CircleRed}
+                checked={avatarStyle === AvatarStyle.CircleRed}
                 onChange={this.onAvatarStyleChange}
               />{' '}
-              Circle
+              Circle (Red)
             </label>{' '}
+
+            <label>
+              <input
+                type='radio'
+                id='avatar-style-circle-orange'
+                name='avatar-style'
+                value={AvatarStyle.CircleOrange}
+                checked={avatarStyle === AvatarStyle.CircleOrange}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Orange)
+            </label>{' '}
+
+            <label>
+              <input
+                type='radio'
+                id='avatar-style-circle-yellow'
+                name='avatar-style'
+                value={AvatarStyle.CircleYellow}
+                checked={avatarStyle === AvatarStyle.CircleYellow}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Yellow)
+            </label>{' '}
+
+            <label>
+              <input
+                type='radio'
+                id='avatar-style-circle-green'
+                name='avatar-style'
+                value={AvatarStyle.CircleGreen}
+                checked={avatarStyle === AvatarStyle.CircleGreen}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Green)
+            </label>{' '}
+
+            <label>
+              <input
+                type='radio'
+                id='avatar-style-circle-blue'
+                name='avatar-style'
+                value={AvatarStyle.CircleBlue}
+                checked={avatarStyle === AvatarStyle.CircleBlue}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Blue)
+            </label>{' '}
+
+            <label>
+              <input
+                type='radio'
+                id='avatar-style-circle-purple'
+                name='avatar-style'
+                value={AvatarStyle.CirclePurple}
+                checked={avatarStyle === AvatarStyle.CirclePurple}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Purple)
+            </label>{' '}
+
             <label>
               <input
                 type='radio'
@@ -132,6 +193,7 @@ export default class AvatarForm extends React.Component<Props> {
               />{' '}
               Transparent
             </label>
+
           </Col>
         </FormGroup>
         {selects}
