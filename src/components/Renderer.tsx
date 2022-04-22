@@ -39,7 +39,7 @@ export class Renderer extends React.Component<Props> {
     optionContext: PropTypes.instanceOf(OptionContext),
   }
   static defaultProps = {
-    avatarStyle: AvatarStyle.CircleBlue,
+    avatarStyle: AvatarStyle.Circle,
   }
 
   private optionContext: OptionContext = new OptionContext(allOptions)

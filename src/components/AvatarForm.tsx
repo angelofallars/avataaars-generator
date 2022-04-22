@@ -113,133 +113,13 @@ export default class AvatarForm extends React.Component<Props> {
             <label>
               <input
                 type='radio'
-                id='avatar-style-circle-red'
+                id='avatar-style-circle'
                 name='avatar-style'
-                value={AvatarStyle.CircleRed}
-                checked={avatarStyle === AvatarStyle.CircleRed}
+                value={AvatarStyle.Circle}
+                checked={avatarStyle === AvatarStyle.Circle}
                 onChange={this.onAvatarStyleChange}
               />{' '}
-              Circle (Red)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-orange'
-                name='avatar-style'
-                value={AvatarStyle.CircleOrange}
-                checked={avatarStyle === AvatarStyle.CircleOrange}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Orange)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-yellow'
-                name='avatar-style'
-                value={AvatarStyle.CircleYellow}
-                checked={avatarStyle === AvatarStyle.CircleYellow}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Yellow)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-green'
-                name='avatar-style'
-                value={AvatarStyle.CircleGreen}
-                checked={avatarStyle === AvatarStyle.CircleGreen}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Green)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-blue'
-                name='avatar-style'
-                value={AvatarStyle.CircleBlue}
-                checked={avatarStyle === AvatarStyle.CircleBlue}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Blue)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-purple'
-                name='avatar-style'
-                value={AvatarStyle.CirclePurple}
-                checked={avatarStyle === AvatarStyle.CirclePurple}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Purple)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-cerulean'
-                name='avatar-style'
-                value={AvatarStyle.CircleCerulean}
-                checked={avatarStyle === AvatarStyle.CircleCerulean}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Cerulean)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-white'
-                name='avatar-style'
-                value={AvatarStyle.CircleWhite}
-                checked={avatarStyle === AvatarStyle.CircleWhite}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (White)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-light-gray'
-                name='avatar-style'
-                value={AvatarStyle.CircleLightGray}
-                checked={avatarStyle === AvatarStyle.CircleLightGray}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (LightGray)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-dark-gray'
-                name='avatar-style'
-                value={AvatarStyle.CircleDarkGray}
-                checked={avatarStyle === AvatarStyle.CircleDarkGray}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (DarkGray)
-            </label>{' '}
-
-            <label>
-              <input
-                type='radio'
-                id='avatar-style-circle-black'
-                name='avatar-style'
-                value={AvatarStyle.CircleBlack}
-                checked={avatarStyle === AvatarStyle.CircleBlack}
-                onChange={this.onAvatarStyleChange}
-              />{' '}
-              Circle (Black)
+              Circle
             </label>{' '}
 
             <label>
