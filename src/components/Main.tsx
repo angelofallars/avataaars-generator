@@ -56,7 +56,7 @@ export class Main extends React.Component<Props, State> {
     optionContext: PropTypes.instanceOf(OptionContext),
   }
   static defaultProps = {
-    avatarStyle: AvatarStyle.Circle,
+    avatarStyle: AvatarStyle.Fill,
   }
 
   state = {
