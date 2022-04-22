@@ -185,6 +185,18 @@ export default class AvatarForm extends React.Component<Props> {
             <label>
               <input
                 type='radio'
+                id='avatar-style-circle-cerulean'
+                name='avatar-style'
+                value={AvatarStyle.CircleCerulean}
+                checked={avatarStyle === AvatarStyle.CircleCerulean}
+                onChange={this.onAvatarStyleChange}
+              />{' '}
+              Circle (Cerulean)
+            </label>{' '}
+
+            <label>
+              <input
+                type='radio'
                 id='avatar-style-circle-white'
                 name='avatar-style'
                 value={AvatarStyle.CircleWhite}
