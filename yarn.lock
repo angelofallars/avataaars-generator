@@ -518,7 +518,7 @@ autoprefixer@^6.3.1:
 
 "avataaars@https://github.com/angelofallars/avataaars":
   version "2.0.0"
-  resolved "https://github.com/angelofallars/avataaars#9b33e3c569d913cee58b6db4d8cd7c922be9baea"
+  resolved "https://github.com/angelofallars/avataaars#2025c9aef8556d108e6bb285b00a274901b38557"
   dependencies:
     lodash ">=4.17.21"
     prop-types "^15.7.2"
